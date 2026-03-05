@@ -1,0 +1,89 @@
+name: cob_task
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Secure api keys
+  flutter_dotenv: ^5.1.0
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.8
+
+  # Networking
+  dio: ^5.7.0
+
+  # Database
+  sqflite: ^2.4.2
+  path: ^1.9.1
+
+  # Caching / Prefs
+  shared_preferences: ^2.3.2
+
+  # DI
+  get_it: ^8.0.2
+
+  # UI
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.2.3
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # Connectivity
+  connectivity_plus: ^7.0.0
+
+  # WebView
+  webview_flutter: ^4.8.0
+
+  # Utils
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.12.1
+  flutter_lints: ^6.0.0
+  device_preview: ^1.2.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  # Enable localization generation
+  generate: true
+  # Assets
+  assets:
+    - .env
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+flutter_native_splash:
+  color: "#1976D2"
+  image: assets/icons/splash_icon.png
+  android: true
+  ios: true
+  web: false
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+  android_12:
+    color: "#1976D2"
+    icon_background_color: "#1976D2"

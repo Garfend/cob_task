@@ -1,0 +1,47 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="1024" height="1024" rx="200" fill="url(#gradient)"/>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Newspaper/Article Icon -->
+  <g transform="translate(192, 192)">
+    <!-- Main newspaper rectangle -->
+    <rect x="0" y="0" width="640" height="640" rx="40" fill="white" opacity="0.95"/>
+
+    <!-- Header line (big headline) -->
+    <rect x="60" y="80" width="520" height="50" rx="10" fill="#1976D2"/>
+
+    <!-- Two column layout - left column -->
+    <rect x="60" y="180" width="240" height="25" rx="5" fill="#1976D2" opacity="0.7"/>
+    <rect x="60" y="230" width="240" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+    <rect x="60" y="260" width="240" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+    <rect x="60" y="290" width="200" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+
+    <!-- Image placeholder left -->
+    <rect x="60" y="340" width="240" height="160" rx="10" fill="#BBDEFB"/>
+    <circle cx="180" cy="390" r="30" fill="#2196F3" opacity="0.5"/>
+    <path d="M 150 440 L 180 410 L 210 440" stroke="#2196F3" stroke-width="8" fill="none" opacity="0.5"/>
+
+    <!-- Two column layout - right column -->
+    <rect x="340" y="180" width="240" height="25" rx="5" fill="#1976D2" opacity="0.7"/>
+    <rect x="340" y="230" width="240" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+    <rect x="340" y="260" width="240" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+    <rect x="340" y="290" width="200" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+
+    <!-- Image placeholder right -->
+    <rect x="340" y="340" width="240" height="160" rx="10" fill="#BBDEFB"/>
+    <circle cx="460" cy="390" r="30" fill="#2196F3" opacity="0.5"/>
+    <path d="M 430 440 L 460 410 L 490 440" stroke="#2196F3" stroke-width="8" fill="none" opacity="0.5"/>
+
+    <!-- Bottom text lines -->
+    <rect x="60" y="530" width="520" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+    <rect x="60" y="560" width="520" height="15" rx="3" fill="#90CAF9" opacity="0.6"/>
+  </g>
+</svg>
