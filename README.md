@@ -1,4 +1,4 @@
-## 📚 Documentation
+##  Documentation
 
 - **[PROGRESS.md](PROGRESS.md)** - Complete implementation progress, technical details, and next steps
 
@@ -15,6 +15,8 @@
 ### Prerequisites
 - Flutter SDK 3.11.0+
 - NewsAPI key from [newsapi.org](https://newsapi.org/register)
+- create account in [newsapi.org](https://newsapi.org/register) and get an api key
+- create .env file in root directory and put it in API_KEY='YOUR_API_KEY_HERE'
 
 ##  Architecture
 
