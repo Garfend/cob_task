@@ -18,7 +18,7 @@
 
 ```
 lib/
-├── core/                 # Core utilities, services, base classes
+├── core/                 # Core utilities, services, base classes, shared widgets
 ├── config/              # Theme, routing
 └── features/            # Feature modules (home, detail, favorites, search)
 ```
