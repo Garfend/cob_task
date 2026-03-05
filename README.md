@@ -20,8 +20,7 @@
 lib/
 ├── core/                 # Core utilities, services, base classes
 ├── config/              # Theme, localization, routing
-├── features/            # Feature modules (home, detail, favorites, search)
-└── shared/              # Shared widgets and utilities
+└── features/            # Feature modules (home, detail, favorites, search)
 ```
 
 **Pattern:** Clean Architecture + BLoC (Cubit)
