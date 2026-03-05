@@ -1,7 +1,3 @@
-##  Documentation
-
-- **[PROGRESS.md](PROGRESS.md)** - Complete implementation progress, technical details, and next steps
-
 ##  Features
 
 -  **Dark & Light Themes** - Beautiful Material 3 design
